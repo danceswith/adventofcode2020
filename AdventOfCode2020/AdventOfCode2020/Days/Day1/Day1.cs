@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace AdventOfCode2020.Days
+namespace AdventOfCode2020.Days.Day1
 {
     class Day1
     {
         public void Part1()
         {
-            var file = File.ReadAllLines(@"D:\Projects\adventofcode2020\AdventOfCode2020\AdventOfCode2020\Days\input.txt");
+            var file = File.ReadAllLines(@"D:\Projects\adventofcode2020\AdventOfCode2020\AdventOfCode2020\Days\Day1\input.txt");
 
             foreach(var inputLine1 in file)
             {
@@ -29,7 +29,7 @@ namespace AdventOfCode2020.Days
 
         public void Part2()
         {
-            var file = File.ReadAllLines(@"D:\Projects\adventofcode2020\AdventOfCode2020\AdventOfCode2020\Days\input.txt");
+            var file = File.ReadAllLines(@"D:\Projects\adventofcode2020\AdventOfCode2020\AdventOfCode2020\Days\Day1\input.txt");
 
             foreach (var inputLine1 in file)
             {
