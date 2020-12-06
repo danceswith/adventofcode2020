@@ -3,6 +3,7 @@ using AdventOfCode2020.Days.Day1;
 using AdventOfCode2020.Days.Day2;
 using AdventOfCode2020.Days.Day3;
 using AdventOfCode2020.Days.Day4;
+using AdventOfCode2020.Days.Day5;
 using System;
 
 namespace AdventOfCode2020
@@ -36,6 +37,11 @@ namespace AdventOfCode2020
                     var day4 = new Day4();
                     day4.Part1();
                     day4.Part2();
+                    break;
+                case "5":
+                    var day5 = new Day5();
+                    day5.Part1();
+                    day5.Part2();
                     break;
                 default:
                     Console.WriteLine("Nope");
